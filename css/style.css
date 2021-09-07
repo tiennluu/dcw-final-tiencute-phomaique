@@ -1,0 +1,221 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Patrick+Hand&family=Rampart+One&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Patrick Hand', cursive;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Rampart One', cursive;
+}
+.container{
+	width: 1044px;
+	height: 3600px;
+}
+.header-main{
+	width: 100% ;
+	height: 95px;
+	background: #43BA4B;
+	padding: 12px 0;
+	
+}
+.logo{
+	width: 30%;
+	height: 120px;
+/*	background: grey;*/
+	float: left;
+	margin-left: 100px;
+	margin-top: 10px
+}
+.logo img{
+	width: 100%;
+	margin-left: 40px;
+}
+ .nav{
+	width: 50%;
+	height: 120px;
+/*	background: grey;*/
+	line-height: 120px;
+	font-size: 30px;
+	float: right;
+}
+.nav ul{
+	width: 100%;
+	float: right;
+}
+.nav li{
+	display:contents;
+	font-size: 25px;
+}
+.nav li a{
+	color: black;
+	text-decoration: none;
+	padding: 10px 15px;
+	box-sizing: border-box;
+}
+.nav li a:hover{
+	color:#EAC29E ;
+/*	background : grey;*/
+	border: 1.7px solid #DD9B61;
+	box-sizing: border-box;
+	border-radius: 17px; 
+}
+.section-1{
+	width: 1000px;
+	margin-left: 295px;
+	margin-top:10px;
+}
+.section-1 img{
+	width: 100%;
+}
+.section-2{
+	width: 1000px;
+	height: 150px;
+	margin: 0 auto;
+}
+.left{
+	width: 490px;
+	height: 150px;
+	float: left;
+}
+.box-1{
+	width: 300px;
+	height: 300px;
+/*	background: black;*/
+	margin: 0 auto;
+	float: left;
+	border: 1.7px solid #DD9B61;
+	box-sizing: border-box;
+	border-radius: 17px; 
+}
+.box-1 img{
+	width: 100%;
+/*	height: 80px;*/
+	margin-top: 90px
+}
+.right{
+	width: 450px;
+	height: 150px;
+	float: right;
+/*	background: grey;*/
+}
+.box-2{
+	width: 300px;
+	height: 300px;
+/*	background: black;*/
+/*	margin: 0 auto;*/
+	float: right;
+	border: 1.7px solid #DD9B61;
+	box-sizing: border-box;
+	border-radius: 17px; 
+}
+.box-2 img{
+	width: 100%;
+/*	padding-bottom: 200px;*/
+	
+}
+.section-3{
+	width: 100%;
+	height: 600px;
+/*	background: #43BA4B;*/
+	margin-top: 35px;
+}
+.elm-1{
+	width: 300px;
+	margin-left: 630px;
+/*	margin-top: 300px;*/
+}
+.elm-1 img{
+	width: 100%
+}
+.section-3 h1{
+	text-align: center;
+	font-size: 50px;
+	margin-top: 30px;
+}
+.elm-2{
+	width: 100%;
+	height: 290px;
+	background: #43BA4B; 
+}
+.elm-2 h2{
+	text-align: center;
+	font-size: 35px;
+	padding-top: 30px;
+	box-sizing: border-box;
+}
+.elm-2 h3{
+	text-align: center;
+	font-size: 35px;
+	padding-top: 15px;
+	box-sizing: border-box;
+}
+
+.section-4{
+	width: 100%;
+	height: 500px;
+	background: #43BA4B;	
+}
+.box-tex{
+	width: 65%;
+	height: 400px;
+	background: #F4E1D2;
+	margin: 0 auto;
+	border-radius: 50px;
+}
+.box-tex p{
+	padding: 22px;
+	box-sizing: border-box;
+	font-size: 20px;
+}
+.section-4 img{
+	width: 100%;
+	padding-top: 100px;
+	box-sizing: border-box;
+}
+.section-4 h2{
+	text-align: center;
+	font-size: 40px;
+	padding-top: 60px;
+}
+.box-picture{
+	width: 100%;
+	height: 500px;
+	float: left;
+	margin: 0 auto;
+}
+.box-picture img{
+	width: 300px;
+	float: left;
+	margin-left: 65px;
+	border-radius: 50px;
+
+}
+.box-final{
+	width: 100%;
+	height: 300px;
+	background: black;
+	margin-top: 550px;
+}
+
+.footer{
+	width: 100%;
+	height: 300px;
+	background: #0A0909;
+}
+.footer p{
+	color: rgba(123,123,123,0.05);
+	text-align: center;
+	line-height: 300px;
+	padding-left: 10px
+}
+	
+	
+	
+	
+	
+	
